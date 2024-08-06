@@ -4,38 +4,38 @@ This is a simple implementation of a singly linked list in C++. This list allows
 
 ## Features and Examples
 
-  * Create an empty List
+  * Create an empty List.
 
   ```cpp
   // Example: Create an empty List of strings with the name "names"
   LinkedList<string> *names = new LinkedList<string>();
   ```
   
-  * Get the current List state: empty or not empty
+  * Get the current List state: empty or not empty.
 
   ```cpp
   bool isEmpty = names->isEmpty();
   ```
 
-  * Get the current size of the List
+  * Get the current size of the List.
 
   ```cpp
   int size = names->count();
   ```
 
-  * Get the first data in the list
+  * Get the first data in the list.
 
   ```cpp
   string firstName = names->first();
   ```
 
-  * Get the last data in the list
+  * Get the last data in the list.
 
   ```cpp
   string lastName = names->last();
   ```
 
-  * Add a New Value to the End of the List
+  * Add a New Value to the End of the List.
 
   ```cpp
   names->add(value);
@@ -71,7 +71,7 @@ This is a simple implementation of a singly linked list in C++. This list allows
   bool contains = names->find(data);
   ```
 
-  * Reverse the direction of the list."
+  * Reverse the direction of the list.
 
   ```cpp
   names->reverse();
