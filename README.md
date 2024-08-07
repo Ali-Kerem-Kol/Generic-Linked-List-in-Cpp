@@ -10,6 +10,7 @@ This is a simple implementation of a singly linked list in C++. This list allows
   // Example: Create an empty List of strings with the name "names"
   LinkedList<string> *names = new LinkedList<string>();
   ```
+
   
   * Get the current List state: empty or not empty.
 
@@ -17,11 +18,13 @@ This is a simple implementation of a singly linked list in C++. This list allows
   bool isEmpty = names->isEmpty();
   ```
 
+
   * Get the current size of the List.
 
   ```cpp
   int size = names->count();
   ```
+
 
   * Get the first data in the list.
 
@@ -29,11 +32,13 @@ This is a simple implementation of a singly linked list in C++. This list allows
   string firstName = names->first();
   ```
 
+
   * Get the last data in the list.
 
   ```cpp
   string lastName = names->last();
   ```
+
 
   * Add a New Value to the End of the List.
 
@@ -41,11 +46,13 @@ This is a simple implementation of a singly linked list in C++. This list allows
   names->add(value);
   ```
 
+
   * Inserts a value at the specified index. If the list is empty, the value will be added to the beginning.
 
   ```cpp
   names->insert(index, value);
   ```
+
 
   * Remove a specific element from the List by its data.
 
@@ -53,11 +60,13 @@ This is a simple implementation of a singly linked list in C++. This list allows
   names->remove(data);
   ```
 
+
   * Remove a specific element from the List by its index.
 
   ```cpp
   names->removeAt(2);
   ```
+
 
   * Get the index of the element from the List by its data.
 
@@ -65,11 +74,13 @@ This is a simple implementation of a singly linked list in C++. This list allows
   int index = names->indexOf(data);
   ```
 
+
   * Check if the List Contains a Specific data,returns true if the data is present in the list, otherwise false.
 
   ```cpp
   bool contains = names->find(data);
   ```
+
 
   * Reverse the direction of the list.
 
@@ -77,11 +88,13 @@ This is a simple implementation of a singly linked list in C++. This list allows
   names->reverse();
   ```
 
+
   * Clear the List.Removes all elements from the list.
 
   ```cpp
   names->clear();
   ```
+
 
   * Output the List to Standard Output.
 
