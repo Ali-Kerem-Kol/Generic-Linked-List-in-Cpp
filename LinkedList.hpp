@@ -53,6 +53,9 @@ public:
         insert(size,data);
     }
     void insert(int index,const Object& data){
+        if(index < 0 || index > size){ 
+            throw "Index out of Range";
+        }
         if(index == 0){
             head = new Node<Object>(data,head);
         }
