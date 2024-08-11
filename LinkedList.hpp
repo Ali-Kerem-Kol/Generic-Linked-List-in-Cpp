@@ -70,7 +70,14 @@ public:
         removeAt(index);
     }
     void removeAt(int index){
-        if(size == 0 )throw "Empty list";
+        if(size == 0 ) {
+           throw "Empty list"; 
+        }
+
+        if(index < 0 || index >= size){
+            throw "Index out of Range";
+        }
+        
         Node<Object> *del;
         if(index == 0){
             del = head;
