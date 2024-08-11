@@ -1,4 +1,4 @@
-# Singly Linked List in C++
+# Linked List in C++
 
 This is a simple implementation of a singly linked list in C++. This list allows you to manage collections of any data type, including your own custom data structures. It provides basic operations for manipulating and querying the list.
 
